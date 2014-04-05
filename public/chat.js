@@ -6,7 +6,7 @@ window.onunload = function(){
 };
 
 window.onload = function(){
-	socket = io.connect('http://localhost:8080');
+	socket = io.connect('http://ancient-anchorage-1415.herokuapp.com');
 	
 	var name = prompt('Представьтесь', 'Гость');
 	if(name)
